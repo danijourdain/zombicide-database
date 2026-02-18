@@ -11,6 +11,7 @@ import {
     sortCardsByName,
     sortCardsByType,
     sortCardsByEdition,
+    getUniqueList,
 } from '../../utilities/cardFilterMethods';
 
 const sortMethods = [
@@ -55,6 +56,8 @@ const FilteredCardList = () => {
         <search>
             <FilterCardForm
               {...{searchText, selectedType, selectedEdition, selectedSortMethod}}
+                types={getUniqueList(cardData, "type")}
+                editions={getUniqueList(cardData, "edition")}
                 onSearchTextChanged={handleSearchTextChanged}
                 onSelectedTypeChanged={handleSelectedTypeChanged}
                 onSelectedEditionChanged={handleSelectedEditionChanged}

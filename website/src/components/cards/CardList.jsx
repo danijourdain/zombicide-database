@@ -1,6 +1,6 @@
 import CardTile from './CardTile';
 
-        const CardList = ({cards}) => {
+const CardList = ({cards}) => {
     return <>
         <h1>Cards</h1>
         <ul>
