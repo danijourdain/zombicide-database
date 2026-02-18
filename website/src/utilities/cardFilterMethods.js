@@ -1,11 +1,9 @@
 export function filterCardsByType(cardList, type) {
-    console.log("filter by type");
-    return cardList;
+    return !type ? cardList : cardList.filter(({type: cardType}) => cardType === type);
 }
 
 export function filterCardsByEdition(cardList, edition) {
-    console.log("filter by edition");
-    return cardList;
+    return !edition ? cardList : cardList.filter(({edition: cardEdition}) => cardEdition === edition);
 }
 
 export const sortCardsById = (cardList) => 
