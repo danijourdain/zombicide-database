@@ -12,6 +12,7 @@ import {
     sortCardsByType,
     sortCardsByEdition,
     getUniqueList,
+    buildSearchResultsSection,
 } from '../../utilities/cardFilterMethods';
 
 const sortMethods = [
@@ -50,7 +51,6 @@ const FilteredCardList = () => {
 
     const typeFiltered = filterCardsByType(cardData, selectedType);
     const filteredCards = filterCardsByEdition(typeFiltered, selectedEdition);
-    // const sortedCards = filteredCards;
     const sortedCards = sortMethods[selectedSortMethod].method(filteredCards);
 
     return <>
@@ -67,7 +67,9 @@ const FilteredCardList = () => {
             />
         </search>
         {searchText? 
-            <h1>searched cards</h1>
+            buildSearchResultsSection(sortedCards, searchText).map(
+                (section, index) => <CardList cards={section.entries} headingText={section.label}/>
+            )
         :
             <CardList cards={sortedCards}/>
         }
