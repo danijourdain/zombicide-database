@@ -20,6 +20,7 @@ const FilterCardForm = ({
             </label>
             <DropdownSelect categories={types} nullOption="all types" onChange={bindValueEventSetter(onSelectedTypeChanged)} value={selectedType}/>
             <DropdownSelect categories={editions} nullOption="all editions" onChange={bindValueEventSetter(onSelectedEditionChanged)} value={selectedEdition}/>
+            <DropdownSelect categories={sortMethodOptions} onChange={bindValueEventSetter(onSelectedSortMethodChanged)} value={selectedSortMethod} labelKey="name" valueKey="method"/>
         </fieldset>
     </form>;
 }

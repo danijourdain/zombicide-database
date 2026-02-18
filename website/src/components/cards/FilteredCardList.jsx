@@ -27,7 +27,7 @@ const FilteredCardList = () => {
     const searchText = searchParams.get("text") || "";
     const selectedType = searchParams.get("type") || "";
     const selectedEdition = searchParams.get("edition") || "";
-    const selectedSortMethod = searchParams.get("sort") || 0;
+    const selectedSortMethod = Number(searchParams.get("sort")) || 0;
 
     const bindSearchParameterSetter = (paramName) => (value) => {
         let parameterObject = {
@@ -50,6 +50,7 @@ const FilteredCardList = () => {
 
     const typeFiltered = filterCardsByType(cardData, selectedType);
     const filteredCards = filterCardsByEdition(typeFiltered, selectedEdition);
+    // const sortedCards = filteredCards;
     const sortedCards = sortMethods[selectedSortMethod].method(filteredCards);
 
     return <>

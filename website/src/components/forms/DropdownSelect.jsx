@@ -1,7 +1,14 @@
-const DropdownSelect = ({categories, onChange, nullOption, value}) => {
+const DropdownSelect = ({categories, onChange, nullOption, value, labelKey, valueKey}) => {
     return <select onChange={onChange} value={value}>
-        <option key="default-value" value="">{nullOption}</option>
-        {categories.map((category) => <option key={category} value={category}>{category}</option>)}
+        {nullOption && <option key="default-value" value="">{nullOption}</option>}
+        
+        {categories.map((category, index) => {
+            const isObject = typeof category === "object";
+            const label = isObject ? category.name : category;
+            const idx = isObject ? index : category;
+
+            return <option key={idx} value={idx}>{label}</option>;
+        })}
     </select>;
 }
 
