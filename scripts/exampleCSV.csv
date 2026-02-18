@@ -1,0 +1,213 @@
+Card Name,Deck,Edition,QTY,Type,Range Type,Min Range,Max Range,Dice,Success,Damage,Dual Wield,Open Door,Text
+Baseball Bat,Starter,2nd Edition Core Box,1,Melee,N,0,0,2,3,1,FALSE,FALSE,
+Crowbar,Starter,2nd Edition Core Box,1,Melee,N,0,0,1,4,1,FALSE,TRUE,
+Fire Axe,Starter,2nd Edition Core Box,1,Melee,N,0,0,1,4,2,FALSE,TRUE,
+Pistol,Starter,2nd Edition Core Box,3,Ranged,Bullet,0,1,1,3,1,TRUE,FALSE,
+Bag of Rice,Advanced,2nd Edition Core Box,2,Other,N,N,N,N,N,N,FALSE,FALSE,Discard: Gain 3 AP. May be used in the Backpack.
+Canned Food,Advanced,2nd Edition Core Box,2,Other,N,N,N,N,N,N,FALSE,FALSE,Discard: Gain 3 AP. May be used in the Backpack.
+Chainsaw,Advanced,2nd Edition Core Box,2,Melee,N,0,0,5,5,2,FALSE,TRUE,
+Crowbar,Advanced,2nd Edition Core Box,1,Melee,N,0,0,1,4,1,FALSE,TRUE,
+Fire Axe,Advanced,2nd Edition Core Box,1,Melee,N,0,0,1,4,2,FALSE,TRUE,
+Flashlight,Advanced,2nd Edition Core Box,2,Other,N,N,N,N,N,N,FALSE,FALSE,Search: Draw 2 cards. Light Source. May be used in the Backpack.
+Katana,Advanced,2nd Edition Core Box,2,Melee,N,0,0,2,4,1,TRUE,FALSE,
+Kukri,Advanced,2nd Edition Core Box,2,Melee,N,0,0,2,4,2,FALSE,FALSE,
+Machete,Advanced,2nd Edition Core Box,4,Melee,N,0,0,1,3,2,TRUE,FALSE,
+Molotov,Advanced,2nd Edition Core Box,4,Ranged,Special,1,1,0,AUTO,ALL,FALSE,FALSE,Discard from Hand: Eliminate all Actors in the targeted Zone.
+Pistol,Advanced,2nd Edition Core Box,1,Ranged,Bullet,0,1,1,3,1,TRUE,FALSE,
+Plenty of Bullets,Advanced,2nd Edition Core Box,3,Other,N,N,N,N,N,N,FALSE,FALSE,You may re-roll all Attacks with [bullet] weapons once. The new result takes the place of the previous one. May be used in the Backback.
+Plenty of Shells,Advanced,2nd Edition Core Box,3,Other,N,N,N,N,N,N,FALSE,FALSE,You may re-roll all Attacks with [shell] weapons once. The new result takes the place of the previous one. May be used in the Backback.
+Sawed-Off,Advanced,2nd Edition Core Box,4,Ranged,Shell,0,1,2,3,1,TRUE,FALSE,Reload.
+Shotgun,Advanced,2nd Edition Core Box,2,Ranged,Shell,0,1,2,4,2,FALSE,FALSE,
+Sniper Rifle,Advanced,2nd Edition Core Box,2,Ranged,Bullet,1,3,1,3,2,FALSE,FALSE,Sniper.
+Sub-MG,Advanced,2nd Edition Core Box,2,Ranged,Bullet,0,1,3,5,1,TRUE,FALSE,
+Water,Advanced,2nd Edition Core Box,2,Other,N,N,N,N,N,N,FALSE,FALSE,Discard: Gain 3 AP. May be used in the Backpack.
+Army Sniper Rifle,Epic,2nd Edition Core Box,1,Ranged,Bullet,1,4,2,3,2,FALSE,FALSE,Sniper.
+Automatic Shotgun,Epic,2nd Edition Core Box,1,Ranged,Shell,0,1,3,4,2,FALSE,FALSE,
+Evil Twins,Epic,2nd Edition Core Box,1,Ranged,Bullet,0,1,2,3,1,FALSE,FALSE,
+Golden AK-47,Epic,2nd Edition Core Box,1,Ranged,Bullet,1,2,3,4,2,FALSE,FALSE,
+Golden Kukri,Epic,2nd Edition Core Box,1,Melee,N,0,0,4,4,2,FALSE,FALSE,
+Gunblade,Epic,2nd Edition Core Box,1,Ranged,Bullet,0,1,2,4,2,FALSE,FALSE,
+Gunblade,Epic,2nd Edition Core Box,1,Melee,N,0,0,4,4,2,FALSE,FALSE,
+Ma's Shotgun,Epic,2nd Edition Core Box,1,Ranged,Shell,0,1,2,3,2,FALSE,FALSE,Reload.
+Ma's Shotgun,Epic,2nd Edition Core Box,1,Melee,N,0,0,1,3,2,FALSE,FALSE,Reload.
+Nailbat,Epic,2nd Edition Core Box,1,Melee,N,0,0,2,3,2,FALSE,FALSE,
+Zantetsuken,Epic,2nd Edition Core Box,1,Melee,N,0,0,5,4,1,FALSE,FALSE,
+Baseball Bat,Starter,Washington ZC,1,Melee,N,0,0,2,3,1,FALSE,FALSE,
+Crowbar,Starter,Washington ZC,1,Melee,N,0,0,1,4,1,FALSE,TRUE,
+Fire Axe,Starter,Washington ZC,1,Melee,N,0,0,1,4,2,FALSE,TRUE,
+Pistol,Starter,Washington ZC,3,Ranged,Bullet,0,1,1,3,1,TRUE,FALSE,
+Bag of Rice,Advanced,Washington ZC,2,Other,N,N,N,N,N,N,FALSE,FALSE,Discard: Gain 3 AP. May be used in the Backpack.
+Canned Food,Advanced,Washington ZC,2,Other,N,N,N,N,N,N,FALSE,FALSE,Discard: Gain 3 AP. May be used in the Backpack.
+Chainsaw,Advanced,Washington ZC,2,Melee,N,0,0,5,5,2,FALSE,TRUE,
+Crowbar,Advanced,Washington ZC,1,Melee,N,0,0,1,4,1,FALSE,TRUE,
+Flashlight,Advanced,Washington ZC,2,Other,N,N,N,N,N,N,FALSE,FALSE,Search: Draw 2 cards. Light Source. May be used in the Backpack.
+Fire Axe,Advanced,Washington ZC,1,Melee,N,0,0,1,4,2,FALSE,TRUE,
+Katana,Advanced,Washington ZC,2,Melee,N,0,0,2,4,1,TRUE,FALSE,
+Kukri,Advanced,Washington ZC,2,Melee,N,0,0,2,4,2,FALSE,FALSE,
+Machete,Advanced,Washington ZC,4,Melee,N,0,0,1,3,2,TRUE,FALSE,
+Molotov,Advanced,Washington ZC,4,Ranged,Special,1,1,0,AUTO,ALL,FALSE,FALSE,Discard from Hand: Eliminate all Actors in the targeted Zone.
+Pistol,Advanced,Washington ZC,1,Ranged,Bullet,0,1,1,3,1,TRUE,FALSE,
+Plenty of Bullets,Advanced,Washington ZC,3,Other,N,N,N,N,N,N,FALSE,FALSE,You may re-roll all Attacks with [bullet] weapons once. The new result takes the place of the previous one. May be used in the Backback.
+Plenty of Shells,Advanced,Washington ZC,3,Other,N,N,N,N,N,N,FALSE,FALSE,You may re-roll all Attacks with [shell] weapons once. The new result takes the place of the previous one. May be used in the Backback.
+Sawed-Off,Advanced,Washington ZC,4,Ranged,Shell,0,1,2,3,1,TRUE,FALSE,Reload.
+Shotgun,Advanced,Washington ZC,2,Ranged,Shell,0,1,2,4,2,FALSE,FALSE,
+Sniper Rifle,Advanced,Washington ZC,2,Ranged,Bullet,1,3,1,3,2,FALSE,FALSE,Sniper.
+Sub-MG,Advanced,Washington ZC,2,Ranged,Bullet,0,1,3,5,1,TRUE,FALSE,
+Water,Advanced,Washington ZC,2,Other,N,N,N,N,N,N,FALSE,FALSE,Discard: Gain 3 AP. May be used in the Backpack.
+Army Sniper Rifle,Epic,Washington ZC,1,Ranged,Bullet,1,4,2,3,2,FALSE,FALSE,Sniper.
+Automatic Shotgun,Epic,Washington ZC,1,Ranged,Shell,0,1,3,4,2,FALSE,FALSE,
+Evil Twins,Epic,Washington ZC,1,Ranged,Bullet,0,1,2,3,1,FALSE,FALSE,
+Golden AK-47,Epic,Washington ZC,1,Ranged,Bullet,1,2,3,4,2,FALSE,FALSE,
+Golden Kukri,Epic,Washington ZC,1,Melee,N,0,0,4,4,2,FALSE,FALSE,
+Gunblade,Epic,Washington ZC,1,Ranged,Bullet,0,1,2,4,2,FALSE,FALSE,
+Gunblade,Epic,Washington ZC,1,Melee,N,0,0,4,4,2,FALSE,FALSE,
+Ma's Shotgun,Epic,Washington ZC,1,Ranged,Shell,0,1,2,3,2,FALSE,FALSE,Reload.
+Ma's Shotgun,Epic,Washington ZC,1,Melee,N,0,0,1,3,2,FALSE,FALSE,Reload.
+Nailbat,Epic,Washington ZC,1,Melee,N,0,0,2,3,2,FALSE,FALSE,
+Zantetsuken,Epic,Washington ZC,1,Melee,N,0,0,5,4,1,FALSE,FALSE,
+Colt M16A4 Rifle,Secret Service,Washington ZC,2,Ranged,Bullet,1,3,1,3,1,FALSE,FALSE,Night vision.
+Desert Eagle,Secret Service,Washington ZC,2,Ranged,Bullet,0,1,1,4,2,FALSE,FALSE,
+Flashlight,Secret Service,Washington ZC,2,Other,N,N,N,N,N,N,FALSE,FALSE,Search: Draw 2 cards. Light Source. May be used in the Backpack.
+Folding Shovel,Secret Service,Washington ZC,2,Melee,N,0,0,1,3,2,FALSE,FALSE,
+Glock 17,Secret Service,Washington ZC,4,Ranged,Bullet,0,1,1,3,1,FALSE,FALSE,
+Ka-Bar,Secret Service,Washington ZC,4,Melee,N,0,0,1,3,1,TRUE,FALSE,Add +1 die to another equipped Melee weapon.
+MP5,Secret Service,Washington ZC,4,Ranged,Bullet,1,2,2,4,1,FALSE,FALSE,
+Night Vision Goggles,Secret Service,Washington ZC,2,Other,N,N,N,N,N,N,FALSE,FALSE,Night vision. May be used in the Backpack.
+Repair Kit,Secret Service,Washington ZC,6,Other,N,N,N,N,N,N,FALSE,FALSE,Discard: Ignore all Break results from a single Attack roll. May be used in the Backpack..
+Riot Shield,Secret Service,Washington ZC,2,Other,N,N,N,N,N,N,FALSE,FALSE,Tough.
+Snack Cake,Secret Service,Washington ZC,1,Other,N,N,N,N,N,N,FALSE,FALSE,Discard: Gain 5 AP. May be used in the Backpack.
+Crowbar,Starter,Fort Hendrix,1,Melee,N,0,0,1,4,1,FALSE,TRUE,
+Fire Axe,Starter,Fort Hendrix,1,Melee,N,0,0,1,4,2,FALSE,TRUE,
+Ka-Bar,Starter,Fort Hendrix,1,Melee,N,0,0,1,3,1,TRUE,FALSE,Add +1 die to another equipped Melee weapon.
+Pistol,Starter,Fort Hendrix,1,Ranged,Bullet,0,1,1,3,1,TRUE,FALSE,
+Rifle,Starter,Fort Hendrix,2,Ranged,Bullet,1,3,1,3,1,FALSE,FALSE,
+Canned Food,Advanced,Fort Hendrix,2,Other,N,N,N,N,N,N,FALSE,FALSE,Discard: Gain 3 AP. May be used in the Backpack.
+Chainsaw,Advanced,Fort Hendrix,2,Melee,N,0,0,5,5,2,FALSE,TRUE,
+Fire Axe,Advanced,Fort Hendrix,1,Melee,N,0,0,1,4,2,FALSE,TRUE,
+Flashlight,Advanced,Fort Hendrix,2,Other,N,N,N,N,N,N,FALSE,FALSE,Search: Draw 2 cards. Light Source. May be used in the Backpack.
+Katana,Advanced,Fort Hendrix,2,Melee,N,0,0,2,4,1,TRUE,FALSE,
+Kukri,Advanced,Fort Hendrix,2,Melee,N,0,0,2,4,2,FALSE,FALSE,
+Machete,Advanced,Fort Hendrix,2,Melee,N,0,0,1,3,2,TRUE,FALSE,
+Molotov,Advanced,Fort Hendrix,4,Ranged,Special,1,1,0,AUTO,ALL,FALSE,FALSE,Discard from Hand: Eliminate all Actors in the targeted Zone.
+Pistol,Advanced,Fort Hendrix,1,Ranged,Bullet,0,1,1,3,1,TRUE,FALSE,
+Sawed-Off,Advanced,Fort Hendrix,4,Ranged,Shell,0,1,2,3,1,TRUE,FALSE,Reload.
+Sniper Rifle,Advanced,Fort Hendrix,2,Ranged,Bullet,1,3,1,3,2,FALSE,FALSE,Sniper.
+Water,Advanced,Fort Hendrix,2,Other,N,N,N,N,N,N,FALSE,FALSE,Discard: Gain 3 AP. May be used in the Backpack.
+Army Sniper Rifle,Epic,Fort Hendrix,1,Ranged,Bullet,1,4,2,3,2,FALSE,FALSE,Sniper.
+Golden AK-47,Epic,Fort Hendrix,1,Ranged,bullet,1,2,3,4,2,FALSE,FALSE,
+Golden Kukri,Epic,Fort Hendrix,1,Melee,N,0,0,4,4,2,FALSE,FALSE,
+Siege Hammer,Epic,Fort Hendrix,1,Melee,N,0,0,3,4,2,FALSE,TRUE,
+Patton's .357 Magnum,Epic,Fort Hendrix,1,Ranged,Bullet,0,1,2,4,2,FALSE,TRUE,Add +2 dice if Patton's .45 Long Colt is equipped.
+Patton's .45 Long Colt,Epic,Fort Hendrix,1,Ranged,Bullet,0,1,3,3,1,FALSE,FALSE,Add +2 dice if Patton's .357 Magnum is equipped.
+Prized Katana,Epic,Fort Hendrix,1,Melee,N,0,0,4,3,1,FALSE,FALSE,
+Prototype Assault Shotgun,Epic,Fort Hendrix,1,Ranged,Shell,1,2,3,3,1,FALSE,FALSE,
+Wristbreaker,Epic,Fort Hendrix,1,Melee,N,0,0,6,5,2,FALSE,FALSE,
+AN-M14 Incendiary Grenade,Military,Fort Hendrix,4,Ranged,Special,1,2,0,AUTO,ALL,FALSE,FALSE,Discard from Hand: Eliminate all Actors in the targeted Zone.
+Colt M16A4 Rifle,Military,Fort Hendrix,2,Ranged,Bullet,1,3,1,3,1,FALSE,FALSE,
+Colt M4 Carbine,Military,Fort Hendrix,4,Ranged,Bullet,1,2,1,3,1,FALSE,FALSE,
+Flashlight,Military,Fort Hendrix,2,Other,N,N,N,N,N,N,FALSE,FALSE,Search: Draw 2 cards. Light Source. May be used in the Backpack.
+H&K MP5,Military,Fort Hendrix,4,Ranged,Bullet,1,2,2,4,1,FALSE,FALSE,
+H&K MP7,Military,Fort Hendrix,2,Ranged,Bullet,0,1,3,5,1,TRUE,FALSE,
+Ka-Bar,Military,Fort Hendrix,4,Melee,N,0,0,1,3,1,TRUE,FALSE,Add +1 die to another equipped Melee weapon.
+Machete,Military,Fort Hendrix,2,Melee,N,0,0,1,3,2,TRUE,FALSE,
+Mossberg 500,Military,Fort Hendrix,2,Ranged,Shell,1,1,2,4,2,FALSE,FALSE,
+M.R.E.,Military,Fort Hendrix,2,Other,N,N,N,N,N,N,FALSE,FALSE,Discard: Gain 3 AP. May be used in the Backpack.
+Night Vision Goggles,Military,Fort Hendrix,2,Other,N,N,N,N,N,N,FALSE,FALSE,Night vision. May be used in the Backpack.
+Repair Kit,Military,Fort Hendrix,6,Other,N,N,N,N,N,N,FALSE,FALSE,Discard: Ignore all Break results from a single Attack roll. May be used in the Backpack.
+Sig Sauer P320,Military,Fort Hendrix,4,Ranged,Bullet,0,1,1,3,1,TRUE,FALSE,
+Tactical Halligan,Military,Fort Hendrix,2,Melee,N,0,0,2,4,2,FALSE,TRUE,
+Tactical Tomahawk,Military,Fort Hendrix,2,Melee,N,0,0,2,3,2,FALSE,TRUE,
+Plenty of Bullets,Military,Fort Hendrix,2,Other,N,N,N,N,N,N,FALSE,FALSE,You may re-roll all Attacks with [bullet] weapons once. The new result takes the place of the previous one. May be used in the Backback.
+Plenty of Shells,Military,Fort Hendrix,2,Other,N,N,N,N,N,N,FALSE,FALSE,You may re-roll all Attacks with [shell] weapons once. The new result takes the place of the previous one. May be used in the Backback.
+Danny's Machete,Epic,Reboot Box,1,Melee,N,0,0,1,3,2,TRUE,FALSE,Danny Trejo. Can be used in Dual mode with a regular Machete.
+Mason's Sledgehammer,Epic,Reboot Box,1,Melee,N,0,0,4,5,2,TRUE,FALSE,Roll 6: +1 Damage: Melee.
+Minigun,Epic,Reboot Box,1,Ranged,Bullet,1,3,3,4,2,FALSE,FALSE,Escalation: Ranged.
+Nailgun,Epic,Reboot Box,1,Ranged,N,0,1,5,5,1,FALSE,FALSE,Hit & run. Point-blank.
+Presidential Golf Clubs,Epic,Reboot Box,1,Melee,N,0,0,3,3,1,FALSE,FALSE,Roll 6: +1 Damage: Melee.
+RPG-7,Epic,Reboot Box,1,Ranged,N,2,3,1,3,3,FALSE,FALSE,Reload.
+RPG-7,Epic,Reboot Box,1,Ranged,N,2,3,5,3,1,FALSE,FALSE,Reload.
+Wrecking Ball,Epic,Reboot Box,1,Melee,N,0,0,3,4,2,FALSE,FALSE,Escalation: Melee.
+Zombie Costume,Epic,Reboot Box,1,Other,N,N,N,N,N,N,FALSE,FALSE,Slippery. Discard this card upon being dealt any amount of Wounds by Zombies: the Wounds are cancelled.
+.38,Starter,Rio Z Janeiro,3,Ranged,Bullet,0,1,2,5,1,TRUE,FALSE,
+Crowbar,Starter,Rio Z Janeiro,1,Melee,N,0,0,1,4,1,FALSE,TRUE,
+Fire Axe,Starter,Rio Z Janeiro,1,Melee,N,0,0,1,4,2,FALSE,TRUE,
+Wooden Plank,Starter,Rio Z Janeiro,1,Melee,N,0,0,2,3,1,FALSE,FALSE,
+.38,Advanced,Rio Z Janeiro,2,Ranged,Bullet,0,1,2,5,1,TRUE,FALSE,
+Biscoito Plano,Advanced,Rio Z Janeiro,3,Other,N,N,N,N,N,N,FALSE,FALSE,Discard to either gain 3 AP OR to Heal 1 and discard a Wound Card.
+Chainsaw,Advanced,Rio Z Janeiro,2,Melee,N,0,0,5,5,2,FALSE,TRUE,
+Crowbar,Advanced,Rio Z Janeiro,1,Melee,N,0,0,1,4,1,FALSE,TRUE,
+Iron Pipe,Advanced,Rio Z Janeiro,2,Melee,N,0,0,1,2,1,FALSE,FALSE,
+Katana,Advanced,Rio Z Janeiro,2,Melee,N,0,0,2,4,1,TRUE,FALSE,
+Kukri,Advanced,Rio Z Janeiro,2,Melee,N,0,0,2,4,2,FALSE,FALSE,
+Machete,Advanced,Rio Z Janeiro,2,Melee,N,0,0,1,3,2,TRUE,FALSE,
+Mate Tea,Advanced,Rio Z Janeiro,3,Other,N,N,N,N,N,N,FALSE,FALSE,Discard to gain 2 extra Actions.
+Molotov,Advanced,Rio Z Janeiro,4,Ranged,Special,1,1,0,AUTO,ALL,FALSE,FALSE,Discard from Hand: Eliminate all Actors in the targeted Zone.
+Plenty of Bullets,Advanced,Rio Z Janeiro,3,Other,N,N,N,N,N,N,FALSE,FALSE,You may re-roll all Attacks with [bullet] weapons once. The new result takes the place of the previous one. May be used in the Backback.
+Plenty of Shells,Advanced,Rio Z Janeiro,2,Other,N,N,N,N,N,N,FALSE,FALSE,You may re-roll all Attacks with [shell] weapons once. The new result takes the place of the previous one. May be used in the Backback.
+RPG Ammo,Advanced,Rio Z Janeiro,3,Other,N,N,N,N,N,N,FALSE,FALSE,"Ammo for the RPG. Friendly Fire applies. After use, shuffle it back into the Equipment Deck."
+Sawed-Off,Advanced,Rio Z Janeiro,2,Ranged,Shell,0,1,2,3,1,TRUE,FALSE,Reload.
+Shiv,Advanced,Rio Z Janeiro,2,Melee,N,0,0,2,3,1,FALSE,FALSE,
+Shotgun,Advanced,Rio Z Janeiro,2,Ranged,Shell,0,1,2,4,2,FALSE,FALSE,
+Sniper Rifle,Advanced,Rio Z Janeiro,2,Ranged,Bullet,1,3,1,3,2,FALSE,FALSE,Sniper.
+Sub-MG,Advanced,Rio Z Janeiro,2,Ranged,Bullet,0,1,3,5,1,TRUE,FALSE,
+Amor de Mae,Epic,Rio Z Janeiro,1,Ranged,Shell,0,1,2,3,2,FALSE,FALSE,Double Strike. Reload.
+Amor de Mae,Epic,Rio Z Janeiro,1,Melee,N,0,0,1,3,2,FALSE,FALSE,Double Strike. Reload.
+Army Sniper Rifle,Epic,Rio Z Janeiro,1,Ranged,Bullet,1,4,2,3,2,FALSE,FALSE,Sniper.
+Automatic Shotgun,Epic,Rio Z Janeiro,1,Ranged,Shell,0,1,3,4,2,FALSE,FALSE,
+Colt AR-15,Epic,Rio Z Janeiro,1,Ranged,Bullet,1,2,3,3,1,FALSE,FALSE,
+Evil Twins,Epic,Rio Z Janeiro,1,Ranged,Bullet,0,1,2,3,1,FALSE,FALSE,
+Golden AK-47,Epic,Rio Z Janeiro,1,Ranged,Bullet,1,2,3,4,2,FALSE,FALSE,
+Golden Kukri,Epic,Rio Z Janeiro,1,Melee,N,0,0,4,4,2,FALSE,FALSE,
+RPG,Epic,Rio Z Janeiro,1,Ranged,Special,1,3,3,2,4,FALSE,FALSE,
+Prized Katana,Epic,Rio Z Janeiro,1,Melee,N,0,0,4,3,1,FALSE,FALSE,
+Bite on This,Wound,Rio Z Janeiro,2,Wound,N,N,N,N,N,N,FALSE,FALSE,You must discard 1 of your equipped weapons. Ignore the Wound you just received.
+Blinded,Wound,Rio Z Janeiro,1,Wound,N,N,N,N,N,N,FALSE,FALSE,Keep this card in front of you until the end of your next Turn. You cannot perform Ranged Attacks. Gain +1 AP per Zombie you kill.
+Broken Arm,Wound,Rio Z Janeiro,1,Wound,N,N,N,N,N,N,FALSE,FALSE,Keep this card in front of you until the end of this Mission. You can only have 1 weapon equipped (immediately reorganize your inventory for free). It gains +1 die when used.
+"Damn, You!",Wound,Rio Z Janeiro,3,Wound,N,N,N,N,N,N,FALSE,FALSE,"Immediately perform 1 free All-Out Melee Attack, if possible."
+Dazed,Wound,Rio Z Janeiro,1,Wound,N,N,N,N,N,N,FALSE,FALSE,Keep this card in front of you until the end of your next Turn. You can't use any Skills. Gain +1 AP per Zombie you kill.
+"Hey, Over Here!",Wound,Rio Z Janeiro,3,Wound,N,N,N,N,N,N,FALSE,FALSE,"Immediately perform 1 free All-Out Ranged Attack, if possible."
+Light Wound,Wound,Rio Z Janeiro,16,Wound,N,N,N,N,N,N,FALSE,FALSE,I'm still good. Let's keep going!
+Revenge,Wound,Rio Z Janeiro,1,Wound,N,N,N,N,N,N,FALSE,FALSE,"If this Wound was dealt by a Zombie, keep this card in front of your until the end of the next Turn. You can only attack that type of Zombie. Gain +1 AP per Zombie of that type that you kill. If the Wound was dealt by Friendly Fire, the card has no effect."
+Sprained Ankle,Wound,Rio Z Janeiro,1,Wound,N,N,N,N,N,N,FALSE,FALSE,Keep this card in front of you until the end of this Mission. You can only perform a Move Action with another Survivor in the Zone you leave or enter and you can't use any movement related Skills. Gain +1 AP per Zombie you kill.
+Weak Spot,Wound,Rio Z Janeiro,1,Wound,N,N,N,N,N,N,FALSE,FALSE,"If this is your first Wound, suffer 1 extra Wound and gain 5 AP."
+Flagpole,Starter,PariZ,1,Melee,N,0,1,2,5,1,FALSE,FALSE,Polearm.
+Fire Axe,Starter,PariZ,1,Melee,N,0,0,1,4,2,FALSE,TRUE,
+Corkscrew,Starter,PariZ,1,Melee,N,0,0,1,3,1,FALSE,TRUE,Roll 6: Damage 2.
+MAS-56,Starter,PariZ,1,Ranged,Bullet,1,2,1,4,2,FALSE,FALSE,
+Pistol R51,Starter,PariZ,1,Ranged,Bullet,0,1,1,3,1,FALSE,FALSE,
+Revolver MR73,Starter,PariZ,1,Ranged,Bullet,0,1,1,4,1,FALSE,FALSE,Roll 6: +1 die.
+Joyeuse,Unique,PariZ,1,Melee,N,0,0,4,4,2,FALSE,TRUE,Bloodlust: Melee. Unique.
+Napoleon's Marengo Saber,Unique,PariZ,1,Melee,N,0,0,6,4,1,FALSE,FALSE,Lucky. Unique.
+Fleur De Lys Halbero,Epic,PariZ,1,Melee,N,0,1,2,3,2,FALSE,TRUE,Polearm.
+Prized Katana,Epic,PariZ,1,Melee,N,0,0,4,3,1,FALSE,FALSE,
+Grenade Launcher,Epic,PariZ,1,Ranged,N,1,1,0,5,3,FALSE,FALSE,
+Golden AK-47,Epic,PariZ,1,Ranged,Bullet,1,2,3,4,2,FALSE,FALSE,
+Siege Hammer,Epic,PariZ,1,Melee,N,0,0,3,4,2,FALSE,TRUE,
+G36K,Epic,PariZ,1,Ranged,Bullet,1,3,2,4,2,FALSE,FALSE,Night Vision.
+Automatic Shotgun,Epic,PariZ,1,Ranged,Shell,0,1,3,4,2,FALSE,FALSE,
+Army Sniper Rifle,Epic,PariZ,1,Ranged,Bullet,1,4,2,3,2,FALSE,FALSE,Sniper.
+HK416 F,Epic,PariZ,1,Ranged,Bullet,0,1,2,3,2,FALSE,FALSE,Reaper: Ranged.
+SMG MAT 49,Advanced,PariZ,3,Ranged,Bullet,0,1,3,5,1,TRUE,FALSE,
+Hunting Rifle,Advanced,PariZ,2,Ranged,Bullet,1,2,1,3,2,FALSE,FALSE,Sniper.
+FAMAS,Advanced,PariZ,2,Ranged,Bullet,1,2,2,4,1,FALSE,FALSE,Light Source. Ignore Dark Zones.
+Charleville Musket,Advanced,PariZ,2,Ranged,Bullet,1,2,0,2,2,FALSE,FALSE,Reload.
+Double Barrel,Advanced,PariZ,2,Ranged,Shell,0,1,2,4,2,FALSE,FALSE,Reload.
+Medieval Sword,Advanced,PariZ,2,Melee,N,0,0,2,4,2,FALSE,TRUE,
+Saber,Advanced,PariZ,3,Melee,N,0,0,2,4,1,TRUE,FALSE,Roll 6: Damage 2.
+Chef's Knife,Advanced,PariZ,2,Melee,N,0,0,1,4,1,TRUE,FALSE,Add +1 die to another equipped Melee weapon.
+Bayoneta,Advanced,PariZ,2,Melee,N,0,0,0,3,1,FALSE,FALSE,Double-Strike.
+Improvised Spear,Advanced,PariZ,2,Melee,N,0,1,0,3,1,FALSE,FALSE,Polearm.
+Baguette,Advanced,PariZ,2,Melee,N,0,0,1,5,1,TRUE,FALSE,Discard: Gain 3 AP.
+Mandarina,Advanced,PariZ,2,Other,N,N,N,N,N,N,FALSE,FALSE,Discard to gain 2 ectra Actions. May be used in the Backpack.
+Croissant,Advanced,PariZ,2,Other,N,N,N,N,N,N,FALSE,FALSE,Discard to either gain 3 AP OR Heal 1 Wound. May be used in the Bcakpack.
+Flagpole,Advanced,PariZ,1,Melee,N,0,1,2,5,1,FALSE,FALSE,Polearm.
+Fire Axe,Advanced,PariZ,1,Melee,N,0,0,1,4,2,FALSE,TRUE,
+Corkscrew,Advanced,PariZ,1,Melee,N,0,0,1,3,1,FALSE,TRUE,Roll 6: Damage 2.
+MAS-56,Advanced,PariZ,1,Ranged,Bullet,1,2,1,4,2,FALSE,FALSE,
+Pistol R51,Advanced,PariZ,1,Ranged,Bullet,0,1,1,3,1,FALSE,FALSE,
+Revolver MR73,Advanced,PariZ,1,Ranged,Bullet,0,1,1,4,1,FALSE,FALSE,Roll 6: +1 die.
+Chainsaw,Advanced,PariZ,2,Melee,N,0,0,5,5,2,FALSE,TRUE,
+Molotov,Advanced,PariZ,4,Ranged,Special,1,1,0,AUTO,ALL,FALSE,FALSE,Discard from Hand: Eliminate all Actors in the targeted Zone.
+Repair Kit,Advanced,PariZ,4,Other,N,N,N,N,N,N,FALSE,FALSE,Discard: Ignore all Break results from a single Attack roll. May be used in the Backpack.
+Night Vision Goggles,Advanced,PariZ,2,Other,N,N,N,N,N,N,FALSE,FALSE,Night Vision. May be used in the Backpack.
+Flashlight,Advanced,PariZ,4,Other,N,N,N,N,N,N,FALSE,FALSE,Search: Draw 2 cards. Light Source. May be used in the Backpack.
