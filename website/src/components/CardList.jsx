@@ -1,11 +1,10 @@
-import cardData from '../assets/card-list.json'
 import CardTile from './CardTile';
 
-const CardList = () => {
+        const CardList = ({cards}) => {
     return <>
         <h1>Cards</h1>
         <ul>
-            {cardData.map((card) => <CardTile key={card.id} card={card} />)}
+            { cards.map((card) => <CardTile key={card.id} card={card} />)}
         </ul>
     </>;
 }

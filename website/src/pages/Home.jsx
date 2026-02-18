@@ -1,11 +1,9 @@
 import FilteredCardList from "../components/FilteredCardList";
 
 const Home = () => {
-    return (
-        <>
-            <FilteredCardList />
-        </>
-    );
+    return <>
+        <FilteredCardList />
+    </>;
 }
 
 export default Home;
