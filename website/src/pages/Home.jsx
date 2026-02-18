@@ -1,4 +1,4 @@
-import FilteredCardList from "../components/FilteredCardList";
+import FilteredCardList from "../components/cards/FilteredCardList";
 
 const Home = () => {
     return <>

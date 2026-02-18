@@ -1,7 +1,7 @@
 import { useSearchParams } from 'react-router-dom';
 
-import cardData from '../assets/card-list.json'
-import FilterCardForm from "./FilterCardForm";
+import cardData from '../../assets/card-list.json'
+import FilterCardForm from "../forms/FilterCardForm";
 import CardList from "./CardList"
 
 import { 
@@ -11,7 +11,7 @@ import {
     sortCardsByName,
     sortCardsByType,
     sortCardsByEdition,
-} from '../utilities/cardFilterMethods';
+} from '../../utilities/cardFilterMethods';
 
 const sortMethods = [
     {name: "Default", method: sortCardsById},
@@ -54,11 +54,12 @@ const FilteredCardList = () => {
     return <>
         <search>
             <FilterCardForm
-              {...{searchText, selectedType, selectedEdition}}
+              {...{searchText, selectedType, selectedEdition, selectedSortMethod}}
                 onSearchTextChanged={handleSearchTextChanged}
                 onSelectedTypeChanged={handleSelectedTypeChanged}
                 onSelectedEditionChanged={handleSelectedEditionChanged}
                 onSelectedSortMethodChanged={handleSelectedSortMethodChanged}
+                sortMethodOptions={sortMethods}
             />
         </search>
         {searchText? 
