@@ -1,9 +1,11 @@
 import Image from "../Image";
 
 const CardTile = ({card}) => {
+    const imageSource = `src/assets/images/${card.edition}/${card.deck}/${card.name}.png`
+
     return (
         <li>
-            <Image/>
+            <Image src={imageSource}/>
             <p>{card.id}</p>
             <p>{card.name}</p>
             <p>{card.deck}</p>

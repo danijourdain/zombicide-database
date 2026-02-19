@@ -15,7 +15,7 @@ function Image({ src }) {
   return (
     <>
       {!loaded && <ImagePlaceholder text="Loading"/>}
-      <img
+      <img className="card-image"
         src={src}
         style={!loaded ? { display: "none" } : {}}
         onLoad={() => setLoaded(true)}
