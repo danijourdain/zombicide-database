@@ -1,4 +1,4 @@
-const DropdownSelect = ({categories, onChange, nullOption, value, labelKey, valueKey}) => {
+const DropdownSelect = ({categories, onChange, nullOption, value}) => {
     return <select onChange={onChange} value={value}>
         {nullOption && <option key="default-value" value="">{nullOption}</option>}
         

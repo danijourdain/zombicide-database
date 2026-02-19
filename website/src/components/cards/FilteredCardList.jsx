@@ -51,7 +51,7 @@ const FilteredCardList = () => {
 
     const typeFiltered = filterCardsByType(cardData, selectedType);
     const filteredCards = filterCardsByEdition(typeFiltered, selectedEdition);
-    const sortedCards = sortMethods[selectedSortMethod].method(filteredCards);
+    const sortedCards = sortMethods[selectedSortMethod].method([...filteredCards]);
 
     return <>
         <search>
