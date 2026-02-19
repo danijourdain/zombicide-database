@@ -46,11 +46,9 @@ def csv_to_json(df: pd.DataFrame) -> list:
         card_data["dice"] = row["Dice"] 
         card_data["success"] = row["Success"] 
         card_data["damage"] = row["Damage"] 
-        card_data["dual_weild"] = row["Dual Wield"] 
+        card_data["dual_wield"] = row["Dual Wield"] 
         card_data["open_door"] = row["Open Door"] 
         card_data["text"] = row["Text"] if not pd.isna(row["Text"]) else ""
-
-        print(f"CARD TEXT {card_data["text"]}")
 
         card_list.append(card_data)
 
