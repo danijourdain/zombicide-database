@@ -68,7 +68,7 @@ const FilteredCardList = () => {
         </search>
         {searchText? 
             buildSearchResultsSection(sortedCards, searchText).map(
-                (section, index) => <CardList cards={section.entries} headingText={section.label}/>
+                (section, index) => <CardList key={index} cards={section.entries} headingText={section.label}/>
             )
         :
             <CardList cards={sortedCards}/>
