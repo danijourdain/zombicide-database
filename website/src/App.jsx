@@ -8,7 +8,7 @@ import Board from './pages/Board'
 
 function App() {
     return (
-    <BrowserRouter>
+    <BrowserRouter basename='/zombicide-database'>
       <Header/>
         <main>
           <Routes>

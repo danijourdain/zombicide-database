@@ -1,6 +1,6 @@
 # Zombicide Database
 
-A web viewer for the 2nd Edition of Zombicide
+A web viewer for the 2nd Edition of Zombicide. View online at [https://danijourdain.github.io/zombicide-database](https://danijourdain.github.io/)
 
 ## Setup
 
