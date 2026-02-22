@@ -1,16 +1,25 @@
-# React + Vite
+# Zombicide Database
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web viewer for the 2nd Edition of Zombicide. View online at [https://danijourdain.github.io/zombicide-database](https://danijourdain.github.io/zombicide-database)
 
-Currently, two official plugins are available:
+## Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add content here
 
-## React Compiler
+## Contributing
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Add content here
 
-## Expanding the ESLint configuration
+## Adding new cards
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Add cards to a spreadsheet using the **exact same** format as [exampleCSV.csv](https://github.com/danijourdain/zombicide-database/blob/main/scripts/exampleCSV.csv). Feel free to download this file and edit it with any new cards!
+
+Create a virtual environment & install all dependencies in `src/requirements.txt`.
+
+Run `csv_to_json.py`.
+
+Copy the contents of the output `csv_export.json` **not including the square brackets** into `website/src/assets/card-list.json` ensuring there are **no** overlapping card IDs.
+
+Add images to folders matching the format of the cards already there. Text and capitalization must match the spreadsheet contents **exactly**. If any of the names start with a '.' character, please rename the image file to omit that. Eg. A card named `.38.png` from the Starter Deck of Rio Z Janeiro should be named like this: `Rio Z Janeiro/Starter/38.png`.
+
+Open a pull request to get the new cards added to the deployed site.

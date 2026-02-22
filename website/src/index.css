@@ -1,0 +1,44 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  gap: 1em;
+}
+
+/* Styles for card list  */
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+
+  padding: 0px;;
+  gap: 20px;
+
+  list-style-position: inside;
+  list-style-type: none;
+
+  max-width: 10000px;
+  margin: 0 auto;
+}
+
+li {
+  background-color: lightblue;
+  min-width: 315px;
+  min-height: 480px;
+
+  
+  max-width: 315px;
+  max-height: 480px;
+}
+
+.card-image {
+  width: 315px;
+  height: 480px;
+  aspect-ratio: inherit;
+
+  border-radius: 20px;
+}
