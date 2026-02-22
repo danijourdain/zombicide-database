@@ -27,18 +27,18 @@ header {
 
 li {
   background-color: lightblue;
-  min-width: 320px;
-  min-height: 420px;
+  min-width: 315px;
+  min-height: 480px;
 
   
-  max-width: 320px;
-  max-height: 420px;
+  max-width: 315px;
+  max-height: 480px;
 }
 
 .card-image {
-  width: 320px;
-  height: 420px;
+  width: 315px;
+  height: 480px;
   aspect-ratio: inherit;
 
-  border-radius: 40px;
+  border-radius: 20px;
 }
