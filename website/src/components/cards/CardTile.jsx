@@ -1,22 +1,19 @@
 import Image from "../Image";
 
-const cardImages = import.meta.glob("/src/assets/images/**/*.png", {eager: true, import: "default"});
+const BASE_URL = import.meta.env.BASE_URL;
 
 const CardTile = ({card}) => {    
-    let imagePath = `/src/assets/images/${card.edition}/${card.deck}/${card.name}.png`;
+    let imagePath = BASE_URL + `src/assets/images/${card.edition}/${card.deck}/${card.name}.png`;
 
     // handle case where card name starts with a .
     if(card.name.startsWith(".")) {
         const alteredName = card.name.substring(1);
-        imagePath = `/src/assets/images/${card.edition}/${card.deck}/${alteredName}.png`
+        imagePath = BASE_URL + `src/assets/images/${card.edition}/${card.deck}/${alteredName}.png`
     }
-
-    console.log(cardImages[imagePath]);
-    const imageSource = cardImages[imagePath] ?? cardImages[encodeURIComponent(imagePath)];
 
     return (
         <li>
-            <Image src={imageSource}/>
+            <Image src={imagePath}/>
             <p>{card.id}</p>
             <p>{card.name}</p>
             <p>{card.deck}</p>
