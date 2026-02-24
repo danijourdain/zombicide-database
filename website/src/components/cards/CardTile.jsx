@@ -1,8 +1,9 @@
 import Image from "../Image";
+import styles from './CardTile.module.css';
 
 const BASE_URL = import.meta.env.BASE_URL;
 
-const CardTile = ({card}) => {    
+const CardTile = ({card, onClick}) => {    
     let imagePath = BASE_URL + `images/${card.edition}/${card.deck}/${card.name}.png`;
 
     // handle case where card name starts with a .
@@ -12,7 +13,7 @@ const CardTile = ({card}) => {
     }
 
     return (
-        <li>
+        <li onClick={() => onClick(card)} className="cardTile">
             <Image src={imagePath}/>
             {/* <p>{card.id}</p>
             <p>{card.name}</p>
