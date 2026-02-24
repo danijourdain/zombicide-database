@@ -2,7 +2,8 @@ import { useSearchParams } from 'react-router-dom';
 
 import cardData from '../../assets/card-list.json'
 import FilterCardForm from "../forms/FilterCardForm";
-import CardList from "./CardList"
+import CardList from "./CardList";
+import styles from "./FilteredCardList.module.css";
 
 import { 
     filterCardsByType, 
@@ -54,7 +55,7 @@ const FilteredCardList = () => {
     const sortedCards = sortMethods[selectedSortMethod].method([...filteredCards]);
 
     return <>
-        <search>
+        <search className={styles.search}>
             <FilterCardForm
               {...{searchText, selectedType, selectedEdition, selectedSortMethod}}
                 types={getUniqueList(cardData, "type")}

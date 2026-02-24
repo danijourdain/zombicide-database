@@ -14,11 +14,11 @@ const CardTile = ({card}) => {
     return (
         <li>
             <Image src={imagePath}/>
-            <p>{card.id}</p>
+            {/* <p>{card.id}</p>
             <p>{card.name}</p>
             <p>{card.deck}</p>
             <p>{card.edition}</p>
-            <p>{card.type}</p>
+            <p>{card.type}</p> */}
         </li>
     );
 }

@@ -1,0 +1,8 @@
+.search {
+   font-family: Oswald; 
+}
+
+.search input, .search select {
+  font-family: Oswald;
+  font-size: medium;
+}
