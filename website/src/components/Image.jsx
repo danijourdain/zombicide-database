@@ -20,7 +20,7 @@ function Image({ src }) {
   return (
     <div ref={ref} className={styles.cardImage}>
       {loading && <ImagePlaceholder text="Loading"/>}
-      <img className="card-image"
+      <img
         src={data}
         style={{}}
         onError={() => setError(true)}
