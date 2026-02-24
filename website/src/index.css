@@ -1,5 +1,14 @@
+@font-face {
+  font-family: Oswald;
+  src: url('assets/Oswald-VariableFont_wght.ttf');
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Oswald;
+  --card-width: 315px;
+  --card-height: 480px; 
+  background-color: #242424;
+  color: #fefefe;
 }
 
 header {
@@ -9,36 +18,39 @@ header {
 
 /* Styles for card list  */
 .card-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
 
-  grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(var(--card-width), 1fr));
 
   padding: 0px;;
-  gap: 20px;
+  grid-gap: 20px;
+
+  justify-content: center;
+  align-content: flex-start;
 
   list-style-position: inside;
   list-style-type: none;
 
   max-width: 10000px;
+  
   margin: 0 auto;
 }
 
 li {
-  background-color: lightblue;
-  min-width: 315px;
-  min-height: 480px;
-
+  justify-self: center;
+  /* background-color: lightblue; */
+  min-width: var(--card-width);
+  min-height: var(--card-height);
   
-  max-width: 315px;
-  max-height: 480px;
+  max-width: var(--card-width);
+  max-height: var(--card-height);
 }
 
 .card-image {
-  width: 315px;
-  height: 480px;
   aspect-ratio: inherit;
+  max-width: var(--card-width);
+  max-height: var(--card-height);
+
 
   border-radius: 20px;
 }
