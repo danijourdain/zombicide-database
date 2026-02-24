@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import ImagePlaceholder from "./ImagePlaceholder";
 import useFetchOnVisible from "../hooks/useFetchOnVisible";
+import styles from "./Image.module.css";
 
 function Image({ src }) {
   const ref = useRef(null);
@@ -17,7 +18,7 @@ function Image({ src }) {
   }
 
   return (
-    <div ref={ref}>
+    <div ref={ref} className={styles.image}>
       {loading && <ImagePlaceholder text="Loading"/>}
       <img className="card-image"
         src={data}

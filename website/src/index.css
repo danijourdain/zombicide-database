@@ -48,6 +48,9 @@ li {
 
 .card-image {
   aspect-ratio: inherit;
+  max-width: var(--card-width);
+  max-height: var(--card-height);
+
 
   border-radius: 20px;
 }
