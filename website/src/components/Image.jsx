@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import { useRef, useState } from "react";
 import ImagePlaceholder from "./ImagePlaceholder";
+import useFetchOnVisible from "../hooks/useFetchOnVisible";
 
 function Image({ src }) {
-  const [loaded, setLoaded] = useState(false);
+  const ref = useRef(null);
   const [error, setError] = useState(false);
+
+  const getSource = () => Promise.resolve(src); 
+  const [data, loading] = useFetchOnVisible(ref, getSource);
 
   // missing src property or image path not found
   if (!src || error) {
@@ -13,15 +17,14 @@ function Image({ src }) {
   }
 
   return (
-    <>
-      {!loaded && <ImagePlaceholder text="Loading"/>}
+    <div ref={ref}>
+      {loading && <ImagePlaceholder text="Loading"/>}
       <img className="card-image"
-        src={src}
-        style={!loaded ? { display: "none" } : {}}
-        onLoad={() => setLoaded(true)}
+        src={data}
+        style={{}}
         onError={() => setError(true)}
       />
-    </>
+    </div>
   );
 }
 
