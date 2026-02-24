@@ -11,41 +11,6 @@
   color: #fefefe;
 }
 
-header {
-  display: flex;
-  gap: 1em;
-}
-
-/* Styles for card list  */
-.card-list {
-  display: grid;
-
-  grid-template-columns: repeat(auto-fit, minmax(var(--card-width), 1fr));
-
-  padding: 0px;;
-  grid-gap: 20px;
-
-  justify-content: center;
-  align-content: flex-start;
-
-  list-style-position: inside;
-  list-style-type: none;
-
-  max-width: 10000px;
-  
-  margin: 0 auto;
-}
-
-li {
-  justify-self: center;
-  /* background-color: lightblue; */
-  min-width: var(--card-width);
-  min-height: var(--card-height);
-  
-  max-width: var(--card-width);
-  max-height: var(--card-height);
-}
-
 .card-image {
   aspect-ratio: inherit;
   max-width: var(--card-width);

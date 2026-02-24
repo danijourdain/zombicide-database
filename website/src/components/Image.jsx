@@ -18,7 +18,7 @@ function Image({ src }) {
   }
 
   return (
-    <div ref={ref} className={styles.image}>
+    <div ref={ref} className={styles.cardImage}>
       {loading && <ImagePlaceholder text="Loading"/>}
       <img className="card-image"
         src={data}

@@ -1,11 +1,17 @@
-.image:hover {
+.cardImage:hover {
     /* background-color: red; */
     transform: scale(1.02);
     opacity: 0.6
 }
 
-.image {
+.cardImage {
+
     width: 100%;
     height: 100%;
     transition: transform opacity 0.3s ease;
+}
+
+.cardImage img {
+    aspect-ratio: inherit;
+    border-radius: 20px;
 }
