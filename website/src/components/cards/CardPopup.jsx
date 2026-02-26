@@ -1,27 +1,19 @@
 import Modal from 'react-modal';
-
-const customStyles = {
-  content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)',
-  },
-};
+import styles from './CardPopup.module.css';
 
 const CardPopup = ({ isOpen, onOpen, onClose, afterOpen, card }) => {
     let subtitle;
 
     return <>
         {/* <button onClick={openModal}>Open Modal</button> */}
-        <Modal
+        <Modal 
+            appElement={document.getElementById('root')}
             isOpen={isOpen}
             onAfterOpen={afterOpen}
             onRequestClose={onClose}
             contentLabel='Test modal'
-            style={customStyles}
+            className={styles['popup-content']}
+            overlayClassName={styles['popup-overlay']}
         >
             <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2>
             <button onClick={onClose}>close</button>

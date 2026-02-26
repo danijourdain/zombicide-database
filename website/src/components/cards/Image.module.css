@@ -13,6 +13,7 @@
     transition: transform opacity 0.3s ease;
 
     justify-self: center;
+    cursor: pointer;
 }
 
 .cardImage img {

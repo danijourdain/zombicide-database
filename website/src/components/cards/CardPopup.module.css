@@ -1,0 +1,23 @@
+.popup-overlay {
+    /* background-color: var(--background-color)aa; */
+    background-color: rgba(from var(--background-color) r g b / 70%);
+    position: fixed;   /* and this */
+    inset: 0;
+}
+
+.popup-content {
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    position: absolute;
+
+    background-color: white;
+    color:black
+}

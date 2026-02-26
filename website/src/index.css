@@ -6,9 +6,11 @@
 :root {
   font-family: Oswald;
   --card-width: 315px;
-  --card-height: 480px; 
-  background-color: #242424;
-  color: #fefefe;
+  --card-height: 480px;
+  --background-color: #242424;
+  --text-color: #fefefe;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 .card-image {
