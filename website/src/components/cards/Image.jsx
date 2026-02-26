@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
-import ImagePlaceholder from "./ImagePlaceholder";
-import useFetchOnVisible from "../hooks/useFetchOnVisible";
+import ImagePlaceholder from "../ImagePlaceholder";
+import useFetchOnVisible from "../../hooks/useFetchOnVisible";
 import styles from "./Image.module.css";
 
 function Image({ src }) {

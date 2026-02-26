@@ -1,5 +1,4 @@
-import Image from "../Image";
-import styles from './CardTile.module.css';
+import Image from "./Image";
 
 const BASE_URL = import.meta.env.BASE_URL;
 
