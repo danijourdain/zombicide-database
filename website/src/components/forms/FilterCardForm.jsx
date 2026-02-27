@@ -1,5 +1,6 @@
 import { bindValueEventSetter } from "../../utilities/eventHelpers";
 import DropdownSelect from "./DropdownSelect";
+import style from "./FilterCardForm.module.css";
 
 const FilterCardForm = ({
     searchText, onSearchTextChanged, 
@@ -8,7 +9,7 @@ const FilterCardForm = ({
     selectedSortMethod, onSelectedSortMethodChanged,
     sortMethodOptions
 }) => {
-    return <form onSubmit={e=>e.preventDefault()}>
+    return <form onSubmit={e=>e.preventDefault()} className={style['filter-card-form']}>
         <fieldset>
             <legend>Search Entries</legend>
             <label>
