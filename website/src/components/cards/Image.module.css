@@ -1,5 +1,4 @@
 .cardImage:hover {
-    /* background-color: red; */
     transform: scale(1.02);
     filter: brightness(0.7);
 }
