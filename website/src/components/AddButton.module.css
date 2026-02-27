@@ -1,0 +1,18 @@
+.add-button{
+    border: none;
+    border-radius: 10%;
+    color: var(--background-color);
+
+    background-color: var(--yellow);
+
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+
+    font-family: Oswald;
+}
+
+
+.add-button:hover {
+    filter: brightness(0.7);
+    cursor: pointer;
+}

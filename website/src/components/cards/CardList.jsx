@@ -1,10 +1,33 @@
+import { useState } from 'react';
+
 import CardTile from './CardTile';
+import style from './CardList.module.css'
+import CardPopup from './CardPopup';
 
 const CardList = ({cards, headingText="Cards"}) => {
+    const handleClick = (card) => {
+        setIsOpen(true);
+        setSelectedCard(card);
+    }
+
+    // modal state handling
+    const [isOpen, setIsOpen] = useState(false);
+    const [selectedCard, setSelectedCard] = useState(null);
+    
+    const closeModal = () => {
+        setIsOpen(false);
+        setSelectedCard(null);
+    };
+
     return <>
         <h1>{headingText}</h1>
-        <ul className='card-list'>
-            { cards.map((card) => <CardTile key={card.id} card={card} />)}
+        <CardPopup
+            isOpen={isOpen}
+            onClose={closeModal}
+            card={selectedCard}
+        ></CardPopup>
+        <ul className={style.cardList}>
+            { cards.map((card) => <CardTile key={card.id} card={card} onClick={handleClick}/>)}
         </ul>
     </>;
 }

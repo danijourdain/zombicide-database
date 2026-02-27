@@ -1,0 +1,19 @@
+/* Styles for card list  */
+.cardList {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(var(--card-width), 1fr));
+
+  padding: 0px;
+  grid-gap: 20px;
+
+  justify-content: center;
+  align-content: flex-start;
+
+  list-style-position: inside;
+  list-style-type: none;
+
+  max-width: 10000px;
+  
+  margin: 0 auto;
+}

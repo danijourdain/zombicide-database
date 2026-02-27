@@ -1,0 +1,21 @@
+.cardImage:hover {
+    transform: scale(1.02);
+    filter: brightness(0.7);
+}
+
+.cardImage {
+    width: fit-content;
+    height: fit-content;
+
+    max-height: var(--card-height);
+    max-width: var(--card-width);
+    transition: transform opacity 0.3s ease;
+
+    justify-self: center;
+    cursor: pointer;
+}
+
+.cardImage img {
+    aspect-ratio: inherit;
+    border-radius: 20px;
+}
