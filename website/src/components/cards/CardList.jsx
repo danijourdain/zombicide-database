@@ -9,24 +9,24 @@ const CardList = ({cards, headingText="Cards"}) => {
         // return;
         console.log(card.id);
         setIsOpen(true);
+        setSelectedCard(card);
     }
 
     // modal state handlind
     const [isOpen, setIsOpen] = useState(false);
+    const [selectedCard, setSelectedCard] = useState(null);
     
-    const openModal = () => setIsOpen(true);
-    const closeModal = () => setIsOpen(false);
-    const afterOpenModal = () => {
-        console.log("MODAL OPENED");
-    }
+    const closeModal = () => {
+        setIsOpen(false);
+        setSelectedCard(null);
+    };
 
     return <>
         <h1>{headingText}</h1>
         <CardPopup
             isOpen={isOpen}
-            onOpen={openModal}
             onClose={closeModal}
-            onAfterOpen={afterOpenModal}
+            card={selectedCard}
         ></CardPopup>
         <ul className={style.cardList}>
             { cards.map((card) => <CardTile key={card.id} card={card} onClick={handleClick}/>)}

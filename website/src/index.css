@@ -9,6 +9,7 @@
   --card-height: 480px;
   --background-color: #242424;
   --text-color: #fefefe;
+  --yellow: #fbce09;
   background-color: var(--background-color);
   color: var(--text-color);
 }

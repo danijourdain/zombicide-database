@@ -1,11 +1,12 @@
 .popup-overlay {
     /* background-color: var(--background-color)aa; */
-    background-color: rgba(from var(--background-color) r g b / 70%);
+    background-color: rgba(from #000000 r g b / 40%);
     position: fixed;   /* and this */
     inset: 0;
 }
 
 .popup-content {
+    /* positioning  */
     top: 50%;
     left: 50%;
     right: auto;
@@ -18,6 +19,66 @@
     outline: none;
     position: absolute;
 
-    background-color: white;
-    color:black
+    /* size */
+    min-width: 30%;
+    max-width: 70%;
+    min-height: 45%;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    background-color: var(--background-color);
+    cursor: default;
+}
+
+.popup-content p {
+    font-size: 18px;
+    color: #cccccc;
+}
+
+.popup-content b {
+    color: var(--text-color);
+}
+
+.popup-content .modal-header {
+    width: 100%; 
+    height: fit-content;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close-button {
+    background-color: transparent;
+    color: var(--text-color);
+
+    font-size: 30px;
+    border: none;
+    border-radius: 10%;
+}
+
+.close-button:hover {
+    background-color: rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.add-button {
+    display: flex;
+    justify-content: end;
+}
+
+.add-button button{
+    border: none;
+    border-radius: 10%;
+    color: var(--background-color);
+
+    background-color: var(--yellow);
+
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.add-button button:hover {
+    opacity: 0.7;
+    cursor: pointer;
 }
