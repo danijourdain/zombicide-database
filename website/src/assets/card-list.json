@@ -12,7 +12,7 @@
         "dice": "2",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -29,7 +29,7 @@
         "dice": "1",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -46,7 +46,7 @@
         "dice": "1",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -63,7 +63,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -80,7 +80,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard: Gain 3 AP. May be used in the Backpack."
     },
@@ -97,7 +97,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard: Gain 3 AP. May be used in the Backpack."
     },
@@ -114,7 +114,7 @@
         "dice": "5",
         "success": "5",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -131,7 +131,7 @@
         "dice": "1",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -148,7 +148,7 @@
         "dice": "1",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -165,7 +165,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Search: Draw 2 cards. Light Source. May be used in the Backpack."
     },
@@ -182,7 +182,7 @@
         "dice": "2",
         "success": "4",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -199,7 +199,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -216,7 +216,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -233,7 +233,7 @@
         "dice": "0",
         "success": "AUTO",
         "damage": "ALL",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard from Hand: Eliminate all Actors in the targeted Zone."
     },
@@ -250,7 +250,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -267,7 +267,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "You may re-roll all Attacks with [bullet] weapons once. The new result takes the place of the previous one. May be used in the Backback."
     },
@@ -284,7 +284,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "You may re-roll all Attacks with [shell] weapons once. The new result takes the place of the previous one. May be used in the Backback."
     },
@@ -301,7 +301,7 @@
         "dice": "2",
         "success": "3",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": "Reload."
     },
@@ -318,7 +318,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -335,7 +335,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Sniper."
     },
@@ -352,7 +352,7 @@
         "dice": "3",
         "success": "5",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -369,7 +369,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard: Gain 3 AP. May be used in the Backpack."
     },
@@ -386,7 +386,7 @@
         "dice": "2",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Sniper."
     },
@@ -403,7 +403,7 @@
         "dice": "3",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -420,7 +420,7 @@
         "dice": "2",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -437,7 +437,7 @@
         "dice": "3",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -454,7 +454,7 @@
         "dice": "4",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -471,7 +471,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -488,7 +488,7 @@
         "dice": "4",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -505,7 +505,7 @@
         "dice": "2",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Reload."
     },
@@ -522,7 +522,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Reload."
     },
@@ -539,7 +539,7 @@
         "dice": "2",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -556,7 +556,7 @@
         "dice": "5",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -573,7 +573,7 @@
         "dice": "2",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -590,7 +590,7 @@
         "dice": "1",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -607,7 +607,7 @@
         "dice": "1",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -624,7 +624,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -641,7 +641,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard: Gain 3 AP. May be used in the Backpack."
     },
@@ -658,7 +658,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard: Gain 3 AP. May be used in the Backpack."
     },
@@ -675,7 +675,7 @@
         "dice": "5",
         "success": "5",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -692,7 +692,7 @@
         "dice": "1",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -709,7 +709,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Search: Draw 2 cards. Light Source. May be used in the Backpack."
     },
@@ -726,7 +726,7 @@
         "dice": "1",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -743,7 +743,7 @@
         "dice": "2",
         "success": "4",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -760,7 +760,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -777,7 +777,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -794,7 +794,7 @@
         "dice": "0",
         "success": "AUTO",
         "damage": "ALL",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard from Hand: Eliminate all Actors in the targeted Zone."
     },
@@ -811,7 +811,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -828,7 +828,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "You may re-roll all Attacks with [bullet] weapons once. The new result takes the place of the previous one. May be used in the Backback."
     },
@@ -845,7 +845,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "You may re-roll all Attacks with [shell] weapons once. The new result takes the place of the previous one. May be used in the Backback."
     },
@@ -862,7 +862,7 @@
         "dice": "2",
         "success": "3",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": "Reload."
     },
@@ -879,7 +879,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -896,7 +896,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Sniper."
     },
@@ -913,7 +913,7 @@
         "dice": "3",
         "success": "5",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -930,7 +930,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard: Gain 3 AP. May be used in the Backpack."
     },
@@ -947,7 +947,7 @@
         "dice": "2",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Sniper."
     },
@@ -964,7 +964,7 @@
         "dice": "3",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -981,7 +981,7 @@
         "dice": "2",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -998,7 +998,7 @@
         "dice": "3",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1015,7 +1015,7 @@
         "dice": "4",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1032,7 +1032,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1049,7 +1049,7 @@
         "dice": "4",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1066,7 +1066,7 @@
         "dice": "2",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Reload."
     },
@@ -1083,7 +1083,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Reload."
     },
@@ -1100,7 +1100,7 @@
         "dice": "2",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1117,7 +1117,7 @@
         "dice": "5",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1134,7 +1134,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Night vision."
     },
@@ -1151,7 +1151,7 @@
         "dice": "1",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1168,7 +1168,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Search: Draw 2 cards. Light Source. May be used in the Backpack."
     },
@@ -1185,7 +1185,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1202,7 +1202,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1219,7 +1219,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": "Add +1 die to another equipped Melee weapon."
     },
@@ -1236,7 +1236,7 @@
         "dice": "2",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1253,7 +1253,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Night vision. May be used in the Backpack."
     },
@@ -1270,7 +1270,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard: Ignore all Break results from a single Attack roll. May be used in the Backpack.."
     },
@@ -1287,7 +1287,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Tough."
     },
@@ -1304,7 +1304,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard: Gain 5 AP. May be used in the Backpack."
     },
@@ -1321,7 +1321,7 @@
         "dice": "1",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -1338,7 +1338,7 @@
         "dice": "1",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -1355,7 +1355,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": "Add +1 die to another equipped Melee weapon."
     },
@@ -1372,7 +1372,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -1389,7 +1389,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1406,7 +1406,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard: Gain 3 AP. May be used in the Backpack."
     },
@@ -1423,7 +1423,7 @@
         "dice": "5",
         "success": "5",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -1440,7 +1440,7 @@
         "dice": "1",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -1457,7 +1457,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Search: Draw 2 cards. Light Source. May be used in the Backpack."
     },
@@ -1474,7 +1474,7 @@
         "dice": "2",
         "success": "4",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -1491,7 +1491,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1508,7 +1508,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -1525,7 +1525,7 @@
         "dice": "0",
         "success": "AUTO",
         "damage": "ALL",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard from Hand: Eliminate all Actors in the targeted Zone."
     },
@@ -1542,7 +1542,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -1559,7 +1559,7 @@
         "dice": "2",
         "success": "3",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": "Reload."
     },
@@ -1576,7 +1576,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Sniper."
     },
@@ -1593,7 +1593,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard: Gain 3 AP. May be used in the Backpack."
     },
@@ -1610,7 +1610,7 @@
         "dice": "2",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Sniper."
     },
@@ -1627,7 +1627,7 @@
         "dice": "3",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1644,7 +1644,7 @@
         "dice": "4",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1661,7 +1661,7 @@
         "dice": "3",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -1678,7 +1678,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": "Add +2 dice if Patton's .45 Long Colt is equipped."
     },
@@ -1695,7 +1695,7 @@
         "dice": "3",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Add +2 dice if Patton's .357 Magnum is equipped."
     },
@@ -1712,7 +1712,7 @@
         "dice": "4",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1729,7 +1729,7 @@
         "dice": "3",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1746,7 +1746,7 @@
         "dice": "6",
         "success": "5",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1763,7 +1763,7 @@
         "dice": "0",
         "success": "AUTO",
         "damage": "ALL",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard from Hand: Eliminate all Actors in the targeted Zone."
     },
@@ -1780,7 +1780,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1797,7 +1797,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1814,7 +1814,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Search: Draw 2 cards. Light Source. May be used in the Backpack."
     },
@@ -1831,7 +1831,7 @@
         "dice": "2",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1848,7 +1848,7 @@
         "dice": "3",
         "success": "5",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -1865,7 +1865,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": "Add +1 die to another equipped Melee weapon."
     },
@@ -1882,7 +1882,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -1899,7 +1899,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -1916,7 +1916,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard: Gain 3 AP. May be used in the Backpack."
     },
@@ -1933,7 +1933,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Night vision. May be used in the Backpack."
     },
@@ -1950,7 +1950,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard: Ignore all Break results from a single Attack roll. May be used in the Backpack."
     },
@@ -1967,7 +1967,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -1984,7 +1984,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -2001,7 +2001,7 @@
         "dice": "2",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -2018,7 +2018,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "You may re-roll all Attacks with [bullet] weapons once. The new result takes the place of the previous one. May be used in the Backback."
     },
@@ -2035,7 +2035,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "You may re-roll all Attacks with [shell] weapons once. The new result takes the place of the previous one. May be used in the Backback."
     },
@@ -2052,7 +2052,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": "Danny Trejo. Can be used in Dual mode with a regular Machete."
     },
@@ -2069,7 +2069,7 @@
         "dice": "4",
         "success": "5",
         "damage": "2",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": "Roll 6: +1 Damage: Melee."
     },
@@ -2086,7 +2086,7 @@
         "dice": "3",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Escalation: Ranged."
     },
@@ -2103,7 +2103,7 @@
         "dice": "5",
         "success": "5",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Hit & run. Point-blank."
     },
@@ -2120,7 +2120,7 @@
         "dice": "3",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Roll 6: +1 Damage: Melee."
     },
@@ -2137,7 +2137,7 @@
         "dice": "1",
         "success": "3",
         "damage": "3",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Reload."
     },
@@ -2154,7 +2154,7 @@
         "dice": "5",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Reload."
     },
@@ -2171,7 +2171,7 @@
         "dice": "3",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Escalation: Melee."
     },
@@ -2188,7 +2188,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Slippery. Discard this card upon being dealt any amount of Wounds by Zombies: the Wounds are cancelled."
     },
@@ -2205,7 +2205,7 @@
         "dice": "2",
         "success": "5",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -2222,7 +2222,7 @@
         "dice": "1",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -2239,7 +2239,7 @@
         "dice": "1",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -2256,7 +2256,7 @@
         "dice": "2",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -2273,7 +2273,7 @@
         "dice": "2",
         "success": "5",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -2290,7 +2290,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard to either gain 3 AP OR to Heal 1 and discard a Wound Card."
     },
@@ -2307,7 +2307,7 @@
         "dice": "5",
         "success": "5",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -2324,7 +2324,7 @@
         "dice": "1",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -2341,7 +2341,7 @@
         "dice": "1",
         "success": "2",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -2358,7 +2358,7 @@
         "dice": "2",
         "success": "4",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -2375,7 +2375,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -2392,7 +2392,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -2409,7 +2409,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard to gain 2 extra Actions."
     },
@@ -2426,7 +2426,7 @@
         "dice": "0",
         "success": "AUTO",
         "damage": "ALL",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard from Hand: Eliminate all Actors in the targeted Zone."
     },
@@ -2443,7 +2443,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "You may re-roll all Attacks with [bullet] weapons once. The new result takes the place of the previous one. May be used in the Backback."
     },
@@ -2460,7 +2460,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "You may re-roll all Attacks with [shell] weapons once. The new result takes the place of the previous one. May be used in the Backback."
     },
@@ -2477,7 +2477,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Ammo for the RPG. Friendly Fire applies. After use, shuffle it back into the Equipment Deck."
     },
@@ -2494,7 +2494,7 @@
         "dice": "2",
         "success": "3",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": "Reload."
     },
@@ -2511,7 +2511,7 @@
         "dice": "2",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -2528,7 +2528,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -2545,7 +2545,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Sniper."
     },
@@ -2562,7 +2562,7 @@
         "dice": "3",
         "success": "5",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -2579,7 +2579,7 @@
         "dice": "2",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Double Strike. Reload."
     },
@@ -2596,7 +2596,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Double Strike. Reload."
     },
@@ -2613,7 +2613,7 @@
         "dice": "2",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Sniper."
     },
@@ -2630,7 +2630,7 @@
         "dice": "3",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -2647,7 +2647,7 @@
         "dice": "3",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -2664,7 +2664,7 @@
         "dice": "2",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -2681,7 +2681,7 @@
         "dice": "3",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -2698,7 +2698,7 @@
         "dice": "4",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -2715,7 +2715,7 @@
         "dice": "3",
         "success": "2",
         "damage": "4",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -2732,7 +2732,7 @@
         "dice": "4",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -2749,7 +2749,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "You must discard 1 of your equipped weapons. Ignore the Wound you just received."
     },
@@ -2766,7 +2766,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Keep this card in front of you until the end of your next Turn. You cannot perform Ranged Attacks. Gain +1 AP per Zombie you kill."
     },
@@ -2783,7 +2783,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Keep this card in front of you until the end of this Mission. You can only have 1 weapon equipped (immediately reorganize your inventory for free). It gains +1 die when used."
     },
@@ -2800,7 +2800,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Immediately perform 1 free All-Out Melee Attack, if possible."
     },
@@ -2817,7 +2817,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Keep this card in front of you until the end of your next Turn. You can't use any Skills. Gain +1 AP per Zombie you kill."
     },
@@ -2834,7 +2834,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Immediately perform 1 free All-Out Ranged Attack, if possible."
     },
@@ -2851,7 +2851,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "I'm still good. Let's keep going!"
     },
@@ -2868,7 +2868,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "If this Wound was dealt by a Zombie, keep this card in front of your until the end of the next Turn. You can only attack that type of Zombie. Gain +1 AP per Zombie of that type that you kill. If the Wound was dealt by Friendly Fire, the card has no effect."
     },
@@ -2885,7 +2885,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Keep this card in front of you until the end of this Mission. You can only perform a Move Action with another Survivor in the Zone you leave or enter and you can't use any movement related Skills. Gain +1 AP per Zombie you kill."
     },
@@ -2902,7 +2902,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "If this is your first Wound, suffer 1 extra Wound and gain 5 AP."
     },
@@ -2919,7 +2919,7 @@
         "dice": "2",
         "success": "5",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Polearm."
     },
@@ -2936,7 +2936,7 @@
         "dice": "1",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -2953,7 +2953,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": "Roll 6: Damage 2."
     },
@@ -2970,7 +2970,7 @@
         "dice": "1",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -2987,7 +2987,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -3004,7 +3004,7 @@
         "dice": "1",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Roll 6: +1 die."
     },
@@ -3021,7 +3021,7 @@
         "dice": "4",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": "Bloodlust: Melee. Unique."
     },
@@ -3038,7 +3038,7 @@
         "dice": "6",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Lucky. Unique."
     },
@@ -3055,7 +3055,7 @@
         "dice": "2",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": "Polearm."
     },
@@ -3072,7 +3072,7 @@
         "dice": "4",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -3089,7 +3089,7 @@
         "dice": "0",
         "success": "5",
         "damage": "3",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -3106,7 +3106,7 @@
         "dice": "3",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -3123,7 +3123,7 @@
         "dice": "3",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -3140,7 +3140,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Night Vision."
     },
@@ -3157,7 +3157,7 @@
         "dice": "3",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -3174,7 +3174,7 @@
         "dice": "2",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Sniper."
     },
@@ -3191,7 +3191,7 @@
         "dice": "2",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Reaper: Ranged."
     },
@@ -3208,7 +3208,7 @@
         "dice": "3",
         "success": "5",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": ""
     },
@@ -3225,7 +3225,7 @@
         "dice": "1",
         "success": "3",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Sniper."
     },
@@ -3242,7 +3242,7 @@
         "dice": "2",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Light Source. Ignore Dark Zones."
     },
@@ -3259,7 +3259,7 @@
         "dice": "0",
         "success": "2",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Reload."
     },
@@ -3276,7 +3276,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Reload."
     },
@@ -3293,7 +3293,7 @@
         "dice": "2",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -3310,7 +3310,7 @@
         "dice": "2",
         "success": "4",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": "Roll 6: Damage 2."
     },
@@ -3327,7 +3327,7 @@
         "dice": "1",
         "success": "4",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": "Add +1 die to another equipped Melee weapon."
     },
@@ -3344,7 +3344,7 @@
         "dice": "0",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Double-Strike."
     },
@@ -3361,7 +3361,7 @@
         "dice": "0",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Polearm."
     },
@@ -3378,7 +3378,7 @@
         "dice": "1",
         "success": "5",
         "damage": "1",
-        "dual_weild": true,
+        "dual_wield": true,
         "open_door": false,
         "text": "Discard: Gain 3 AP."
     },
@@ -3395,7 +3395,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard to gain 2 ectra Actions. May be used in the Backpack."
     },
@@ -3412,7 +3412,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard to either gain 3 AP OR Heal 1 Wound. May be used in the Bcakpack."
     },
@@ -3429,7 +3429,7 @@
         "dice": "2",
         "success": "5",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Polearm."
     },
@@ -3446,7 +3446,7 @@
         "dice": "1",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -3463,7 +3463,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": "Roll 6: Damage 2."
     },
@@ -3480,7 +3480,7 @@
         "dice": "1",
         "success": "4",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -3497,7 +3497,7 @@
         "dice": "1",
         "success": "3",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": ""
     },
@@ -3514,7 +3514,7 @@
         "dice": "1",
         "success": "4",
         "damage": "1",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Roll 6: +1 die."
     },
@@ -3531,7 +3531,7 @@
         "dice": "5",
         "success": "5",
         "damage": "2",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": true,
         "text": ""
     },
@@ -3548,7 +3548,7 @@
         "dice": "0",
         "success": "AUTO",
         "damage": "ALL",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard from Hand: Eliminate all Actors in the targeted Zone."
     },
@@ -3565,7 +3565,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Discard: Ignore all Break results from a single Attack roll. May be used in the Backpack."
     },
@@ -3582,7 +3582,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Night Vision. May be used in the Backpack."
     },
@@ -3599,7 +3599,7 @@
         "dice": "N",
         "success": "N",
         "damage": "N",
-        "dual_weild": false,
+        "dual_wield": false,
         "open_door": false,
         "text": "Search: Draw 2 cards. Light Source. May be used in the Backpack."
     }
