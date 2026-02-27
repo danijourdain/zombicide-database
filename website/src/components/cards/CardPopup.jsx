@@ -1,13 +1,22 @@
+import { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import styles from './CardPopup.module.css';
 import AddButton from '../AddButton';
 
 const CardPopup = ({ isOpen, onClose, card }) => {
+    const [appElement, setAppElement] = useState(null);
+    useEffect(() => {
+        const rootElement = document.getElementById('root');
+        if (rootElement) {
+            setAppElement(rootElement);
+        }
+    }, []);
+
     return <Modal 
-        appElement={document.getElementById('root')}
+        appElement={appElement}
         isOpen={isOpen}
         onRequestClose={onClose}
-        contentLabel='Test modal'
+        contentLabel='Card details'
         className={styles['popup-content']}
         overlayClassName={styles['popup-overlay']}
     >

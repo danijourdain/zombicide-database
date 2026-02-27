@@ -1,7 +1,6 @@
 .popup-overlay {
-    /* background-color: var(--background-color)aa; */
-    background-color: rgba(from #000000 r g b / 40%);
-    position: fixed;   /* and this */
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
     inset: 0;
 }
 
@@ -24,7 +23,6 @@
 
     /* size */
     min-width: 30%;
-    max-width: 30%;
     min-height: 45%;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -45,7 +43,6 @@
 .popup-content .modal-header {
     width: 100%; 
     height: fit-content;
-    /* background-color: pink; */
     display: flex;
     align-items: center;
     justify-content: space-between;

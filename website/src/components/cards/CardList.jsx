@@ -6,13 +6,11 @@ import CardPopup from './CardPopup';
 
 const CardList = ({cards, headingText="Cards"}) => {
     const handleClick = (card) => {
-        // return;
-        console.log(card.id);
         setIsOpen(true);
         setSelectedCard(card);
     }
 
-    // modal state handlind
+    // modal state handling
     const [isOpen, setIsOpen] = useState(false);
     const [selectedCard, setSelectedCard] = useState(null);
     
