@@ -1,7 +1,7 @@
 .cardImage:hover {
     /* background-color: red; */
     transform: scale(1.02);
-    opacity: 0.6
+    filter: brightness(0.7);
 }
 
 .cardImage {

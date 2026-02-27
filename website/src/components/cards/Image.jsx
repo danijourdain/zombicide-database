@@ -3,7 +3,7 @@ import ImagePlaceholder from "../ImagePlaceholder";
 import useFetchOnVisible from "../../hooks/useFetchOnVisible";
 import styles from "./Image.module.css";
 
-function Image({ src }) {
+function Image({ src, onClick }) {
   const ref = useRef(null);
   const [error, setError] = useState(false);
 
@@ -18,7 +18,7 @@ function Image({ src }) {
   }
 
   return (
-    <div ref={ref} className={styles.cardImage}>
+    <div ref={ref} className={styles.cardImage} onClick={onClick}>
       {loading && <ImagePlaceholder text="Loading"/>}
       <img
         src={data}
