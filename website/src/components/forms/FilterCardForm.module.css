@@ -1,0 +1,23 @@
+.filter-card-form fieldset {
+    border: none;
+
+    display: flex;
+    justify-self: center;
+    gap: 15px;
+}
+
+.filter-card-form input, .filter-card-form select {
+    background-color: var(--background-color);
+    filter: brightness(0.7);
+
+    border: none;
+    border-radius: 5px;
+    
+    padding: 10px;
+
+    color: var(--text-color);
+}
+
+.filter-card-form legend {
+    display: none;
+}
