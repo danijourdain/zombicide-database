@@ -6,7 +6,7 @@ import styles from './CardTile.module.css'
 const BASE_URL = import.meta.env.BASE_URL;
 
 const CardTile = ({card, onClick}) => {    
-    let imagePath = BASE_URL + `images/${card.edition}/${card.deck}/${card.name}.png`;
+    let imagePath = BASE_URL + `card-images/${card.edition}/${card.deck}/${card.name}.png`;
 
     const [isHovered, setIsHovered] = useState(false);
 
@@ -25,7 +25,7 @@ const CardTile = ({card, onClick}) => {
     // handle case where card name starts with a .
     if(card.name.startsWith(".")) {
         const alteredName = card.name.substring(1);
-        imagePath = BASE_URL + `images/${card.edition}/${card.deck}/${alteredName}.png`
+        imagePath = BASE_URL + `${card.edition}/${card.deck}/${alteredName}.png`
     }
 
     return (
