@@ -1,5 +1,5 @@
 import { useSearchParams } from 'react-router-dom';
-
+import { useEffect } from 'react';
 import cardData from '../../assets/card-list.json'
 import FilterCardForm from "../forms/FilterCardForm";
 import CardList from "./CardList";
@@ -26,6 +26,11 @@ const FilteredCardList = () => {
     const selectedType = searchParams.get("type") || "";
     const selectedEdition = searchParams.get("edition") || "";
     const selectedSortMethod = Number(searchParams.get("sort")) || 0;
+
+    // remove parameters on refresh
+    useEffect(() => {
+        setSearchParams({}, { replace: true });
+    }, []);
 
     const bindSearchParameterSetter = (paramName) => (value) => {
         let parameterObject = {
