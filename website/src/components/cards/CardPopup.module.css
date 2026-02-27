@@ -23,12 +23,26 @@
 
     /* size */
     min-width: 30%;
+    max-width: 30%;
     min-height: 45%;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     background-color: var(--background-color);
     cursor: default;
+}
+
+@media (max-width: 768px) {
+    .popup-content {
+        /* take up most of the screen */
+        min-width: 80%;
+        max-width: 80%;
+        min-height: auto;
+
+        /* reposition to center with padding from edges */
+        top: 50%;
+        left: 50%;
+    }
 }
 
 .popup-content p {
