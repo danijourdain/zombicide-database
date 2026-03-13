@@ -9,9 +9,11 @@ function Image({ src, onClick }) {
 
   const getSource = () => Promise.resolve(src); 
   const [data, loading] = useFetchOnVisible(ref, getSource);
+  console.log("SRC " + src);
 
   // missing src property or image path not found
   if (!src || error) {
+    // something is erroring out here. idk why it can't find the image
     return (
       <ImagePlaceholder text="Image not found" />
     );

@@ -5,6 +5,8 @@ const useFetchOnVisible = (ref, fetchFn) => {
     const [loading, setLoading] = useState(false); // the state to indicate the loading status
 
     useEffect(() => {
+        if (!ref.current) return;
+
         // create a new intersection observer
         const observer = new IntersectionObserver(
             (entries) => {
@@ -27,7 +29,10 @@ const useFetchOnVisible = (ref, fetchFn) => {
         );
 
         // observe the ref element
+        // window.onload = function () {
         observer.observe(ref.current);
+        // }
+
 
         // unobserve the ref element when the component unmounts
         return () => {

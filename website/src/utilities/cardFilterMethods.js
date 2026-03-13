@@ -29,11 +29,14 @@ export function getUniqueList(cardList, field) {
 
 export function buildSearchResultsSection(cardList, searchString) {
     searchString = searchString.toLowerCase();
+    console.log(searchString)
 
     // check for name segment matches
     const nameSegmentMatches = cardList.filter(({ name }) => {
         return name.toLowerCase().includes(searchString);
     });
+
+    console.log(nameSegmentMatches);
 
     return [
         { entries: nameSegmentMatches }
